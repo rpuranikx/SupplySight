@@ -2,6 +2,7 @@
 SupplySight is a project aimed at developing a real-time, predictive dashboard to mitigate supply chain disruptions.
 
 # Data Pipeline
+```mermaid
 graph TD
     A[Data Sources: Simulated/Real-Time Streaming] --> B(Data Ingestion);
     B --> C(Data Cleaning & Preprocessing);
